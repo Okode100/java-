@@ -28,7 +28,7 @@ public class Main {
 
 	//Try to findPathFrom initial position if the maze is solved print the solution
 	public static void main(String[] args) {
-		if (findPathFrom(1, 0)) {
+		if (findPathFrom(1, 1)) {
 			print();
 		} else {
 			System.out.println("no solution found");
